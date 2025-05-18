@@ -1,0 +1,6 @@
+@Gymawy.Api_HostAddress = http://localhost:5186
+
+GET {{Gymawy.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

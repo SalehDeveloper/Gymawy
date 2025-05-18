@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Gymawy.Contract.Authentication
+{
+    public record LoginResponse
+        (
+         Guid UserId , 
+         string Email , 
+         string FullName , 
+         string PhotoUrl ,
+         string ProfileType
+         
+        );
+    
+    
+}
